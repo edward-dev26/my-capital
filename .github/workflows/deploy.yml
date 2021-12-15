@@ -39,4 +39,4 @@ jobs:
         run: |
           aws s3 cp \
             --recursive \
-            ./build/mean-course s3://my-capital
+            ./build s3://my-capital
